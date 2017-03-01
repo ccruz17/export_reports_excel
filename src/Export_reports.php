@@ -16,6 +16,6 @@ namespace ccruz17;
 class Export_reports
 {
     public function make($initial_data, $headers, $data, $sections = true) {
-
+        echo 'Test';
     }
 }
