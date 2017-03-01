@@ -1,0 +1,19 @@
+{
+    "name": "ccruz17/export_reports_excel",
+    "description": "Library to export common reports",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Christian Cruz",
+            "email": "ccruz.ga17@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpexcel": "1.8.*"
+    },
+    "autoload": {
+        "psr-4": { "ccruz17\\": "src/" }
+    }
+}
